@@ -1,6 +1,7 @@
 /* Btn outline */
 
 .btn-outline {
+	transition: .3s;
 	display: flex;
 	column-gap: 10px;
 	align-items: center;
@@ -11,9 +12,12 @@
 	background-color: #fff;
 	color: #000;
 	transition: opacity 0.2s ease-in;
+	margin: 10px;
 
     &:hover {
+		transition: .3s;
         opacity: 0.8;
+		box-shadow: 1px 1px 5px #000;
     }
 
     &:active {

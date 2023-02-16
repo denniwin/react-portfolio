@@ -123,8 +123,7 @@ export const skills = [
         extra: 'Practice Algorithm',
         url: 'codewars',
         description: '',
-        imageUrl:
-            imgcodewars,
+        imageUrl: imgcodewars,
         
     }
 ]

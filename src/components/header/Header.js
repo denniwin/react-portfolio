@@ -12,7 +12,7 @@ const Header = () => {
     const typed = new Typed(el.current, {
       strings: [
         "Full stack developer",
-        "Front-end developer",
+        "Always Strive And Prosper.",
         "React Developer",
       ],
       startDelay: 300,
@@ -34,9 +34,9 @@ const Header = () => {
             a frontend developer
         </h1>
         <div className="header__text">
-            <p ref={el}>Always Strive And Prosper.</p>
+            <p ref={el}></p>
         </div>
-        <a href="#!" className="btn">Download CV</a>
+        <a href="#!" className="btn">Download CV... in progress</a>
     </div>
 </header>
   )

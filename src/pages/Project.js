@@ -1,7 +1,7 @@
-import { NavLink } from 'react-router-dom'
 import { projects } from '../helpers/projectsList'
 import { useParams } from 'react-router-dom'
 import BtnGitHub from '../components/btnGitHub/BtnGitHub'
+import BtnDefault from '../components/btnDefault/BtnDefault';
 
 
 
@@ -19,8 +19,8 @@ const Project = () => {
                 <div className="project-details__desc">
                     <p>{project.skills}</p>
                 </div>
-
-                {project.gitHubLink && <BtnGitHub link='http://github.com'/>}
+                {project.projectLink && <BtnDefault linkurl={project.projectLink}/> }
+                {project.gitHubLink && <BtnGitHub link={project.gitHubLink}/>}
 
             </div>
         </div>

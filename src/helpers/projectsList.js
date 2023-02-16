@@ -17,16 +17,18 @@ const projects = [
     img: Project01,
     imgBig: Project01Big,
     skills: 'React, Node.js, MongoDB',
-    gitHubLink: '',
+    gitHubLink: 'https://github.com/denniwin',
+    projectLink: '',
     id: 1
 },
 
 {
-    title: '2Gaming streaming portal',
+    title: 'Form order',
     img: Project02,
     imgBig: Project02Big,
-    skills: 'React, Node.js, MongoDB',
-    gitHubLink: 'https://github.com',
+    skills: 'HTML, CSS, JS',
+    gitHubLink: 'https://github.com/denniwin/landing',
+    projectLink: 'http://examplesite.great-site.net/',
     id: 2
 },
 
@@ -35,7 +37,8 @@ const projects = [
     img: Project03,
     imgBig: Project03Big,
     skills: 'HTML5 (adaptiv), CSS3 (SCSS), JS, PHP (Phpmailer, TelegramBot)',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/denniwin',
+    projectLink: 'http://examplenft.great-site.net/',
     id: 3
 },
 
@@ -44,7 +47,8 @@ const projects = [
     img: Project04,
     imgBig: Project04Big,
     skills: 'HTML5 (adaptiv), CSS3 (SCSS, css animate), gulp',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/denniwin',
+    projectLink: '',
     id: 4
 },
 
@@ -53,7 +57,8 @@ const projects = [
     img: Project05,
     imgBig: Project05Big,
     skills: 'HTML5 (adaptiv), CSS3 (SCSS), JS (AOS), gulp',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/denniwin',
+    projectLink: 'http://digital.r2000.ru/',
     id: 5
 },
 
@@ -62,7 +67,8 @@ const projects = [
     img: Project06,
     imgBig: Project06Big,
     skills: 'HTML5 (adaptiv), CSS3 (SCSS), JS, gulp',
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/denniwin',
+    projectLink: 'http://zakupki1.r2000.ru/',
     id: 6
 },  
 
