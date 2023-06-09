@@ -15,11 +15,11 @@ export const Contacts = () => {
                 </li>
                 <li className="content-list__item">
                     <h2 className="title-2">Email</h2>
-                    <p><a href="mailto:denniwin@bk.ru">denniwin@bk.ru</a></p>
+                    <p><a href="mailto:denniwin@list.ru">denniwin@list.ru</a></p>
                 </li>
             </ul>
 
     </div>
 </main>
- )
+)
 }

@@ -1,5 +1,5 @@
-import Project01 from './../img/projects/01.jpg'
-import Project01Big from './../img/projects/01-big.jpg'
+import Project01 from './../img/projects/01-big.png'
+import Project01Big from './../img/projects/01-big.png'
 import Project02 from './../img/projects/02.jpg'
 import Project02Big from './../img/projects/02-big.jpg'
 import Project03 from './../img/projects/03.jpg'
@@ -13,12 +13,12 @@ import Project06Big from './../img/projects/06-big.jpg'
 
 const projects = [
 {
-    title: '1Gaming streaming portal',
+    title: 'Wildberries Assistant',
     img: Project01,
     imgBig: Project01Big,
-    skills: 'React, Node.js, MongoDB',
-    gitHubLink: 'https://github.com/denniwin',
-    projectLink: '',
+    skills: 'React, PHP, TelegramAPI',
+    gitHubLink: 'https://github.com/denniwin/my-appWB',
+    projectLink: 'https://my-app-wb.vercel.app/',
     id: 1
 },
 
@@ -26,7 +26,7 @@ const projects = [
     title: 'Form order',
     img: Project02,
     imgBig: Project02Big,
-    skills: 'HTML, CSS, JS',
+    skills: 'HTML, SCSS, JS',
     gitHubLink: 'https://github.com/denniwin/landing',
     projectLink: 'http://examplesite.great-site.net/',
     id: 2
@@ -36,9 +36,9 @@ const projects = [
     title: 'Marketplace NFT',
     img: Project03,
     imgBig: Project03Big,
-    skills: 'HTML5 (adaptiv), CSS3 (SCSS), JS, PHP (Phpmailer, TelegramBot)',
-    gitHubLink: 'https://github.com/denniwin',
-    projectLink: 'http://examplenft.great-site.net/',
+    skills: 'HTML5, CSS, JS, PHP (PhpMailer, TelegramAPI)',
+    gitHubLink: 'https://github.com/denniwin/nft',
+    projectLink: '',
     id: 3
 },
 
@@ -46,9 +46,9 @@ const projects = [
     title: 'Контроль закупок',
     img: Project04,
     imgBig: Project04Big,
-    skills: 'HTML5 (adaptiv), CSS3 (SCSS, css animate), gulp',
+    skills: 'HTML5, SCSS, JS',
     gitHubLink: 'https://github.com/denniwin',
-    projectLink: '',
+    projectLink: 'http://oko-land.r2000.ru/',
     id: 4
 },
 
@@ -56,7 +56,7 @@ const projects = [
     title: 'Система закупок v2',
     img: Project05,
     imgBig: Project05Big,
-    skills: 'HTML5 (adaptiv), CSS3 (SCSS), JS (AOS), gulp',
+    skills: 'HTML5, SCSS, JS',
     gitHubLink: 'https://github.com/denniwin',
     projectLink: 'http://digital.r2000.ru/',
     id: 5
@@ -66,7 +66,7 @@ const projects = [
     title: 'Система закупок',
     img: Project06,
     imgBig: Project06Big,
-    skills: 'HTML5 (adaptiv), CSS3 (SCSS), JS, gulp',
+    skills: 'HTML5, SCSS, JS',
     gitHubLink: 'https://github.com/denniwin',
     projectLink: 'http://zakupki1.r2000.ru/',
     id: 6

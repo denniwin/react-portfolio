@@ -1,8 +1,7 @@
 import React from 'react'
-import './Navbar.scss'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import BtnDarkMode from '../btnDarkMode/btnDarkMode'
-
+import './Navbar.scss'
 
 function Navbar () {
     const activeLink = 'nav-list__link nav-list__link--active';
