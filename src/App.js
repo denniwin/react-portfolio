@@ -1,6 +1,5 @@
 import './index.css'
 import './styles/main.css'
-// import './styles/reset.css'
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
@@ -16,7 +15,6 @@ function App() {
 
   return (
     <div className="App">
-
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -25,7 +23,6 @@ function App() {
         <Route path='/contacts' element={<Contacts/>}/>
       </Routes>
         <Footer/>
-
     </div>
   );
 }
