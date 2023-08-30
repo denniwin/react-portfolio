@@ -10,12 +10,12 @@ export const Contacts = () => {
                     <p>Rostov-on-Don, Russia</p>
                 </li>
                 <li className="content-list__item">
-                    <h2 className="title-2">Telegram / WhatsApp</h2>
-                    <p><a href="tel:+7">...in progress</a></p>
+                    <h2 className="title-2">Telegram</h2>
+                    <p><a href="https://t.me/denniwin" target="_blank" rel="noreferrer">@denniwin</a></p>
                 </li>
                 <li className="content-list__item">
                     <h2 className="title-2">Email</h2>
-                    <p><a href="mailto:denniwin@list.ru">denniwin@list.ru</a></p>
+                    <p><a href="mailto:jobhhru@inbox.ru">jobhhru@inbox.ru</a></p>
                 </li>
             </ul>
 

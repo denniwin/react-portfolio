@@ -1,31 +1,42 @@
-import { projects } from '../helpers/projectsList'
-import { useParams } from 'react-router-dom'
-import BtnGitHub from '../components/btnGitHub/BtnGitHub'
-import BtnDefault from '../components/btnDefault/BtnDefault';
-
-
+import {projects} from "../helpers/projectsList";
+import {useParams} from "react-router-dom";
+import BtnGitHub from "../components/btnGitHub/BtnGitHub";
+import BtnDefault from "../components/btnDefault/BtnDefault";
 
 const Project = () => {
   const {id} = useParams();
   const project = projects[id];
-  
+
   return (
     <main className="section">
-        <div className="container">
-            <div className="project-details">
-                <h1 className="title-1">{project.title}</h1>
-                <img src={project.imgBig} alt={project.title} className="project-details__cover"/>
+      <div className="container">
+        <div className="project-details">
+          <h1 className="title-1">{project.title}</h1>
+          <img
+            src={project.imgBig}
+            alt={project.title}
+            className="project-details__cover"
+          />
 
-                <div className="project-details__desc">
-                    <p>{project.skills}</p>
-                </div>
-                {project.projectLink && <BtnDefault linkurl={project.projectLink}/> }
-                {project.gitHubLink && <BtnGitHub link={project.gitHubLink}/>}
-
-            </div>
+          <div className="project-details__desc">
+            {project.skills && (
+              <p>
+                <strong>Используемый стек: </strong> {project.skills}
+              </p>
+            )}
+            {project.description && (
+              <p>
+                <strong>Описание: </strong>
+                {project.description}
+              </p>
+            )}
+          </div>
+          {project.projectLink && <BtnDefault linkurl={project.projectLink} />}
+          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
         </div>
+      </div>
     </main>
-  )
-}
+  );
+};
 
 export default Project;

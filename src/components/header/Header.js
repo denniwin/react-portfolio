@@ -11,8 +11,7 @@ const Header = () => {
 
     const typed = new Typed(el.current, {
       strings: [
-        "Full stack developer",
-        "Always Strive And Prosper.",
+        "Always Strive And Prosper",
         "React Developer",
       ],
       startDelay: 300,
@@ -31,12 +30,12 @@ const Header = () => {
     <div className="header__wrapper">
         <h1 className="header__title">
             <strong>Hi, my name is <em>Den</em></strong><br/>
-            a frontend developer
+            I am a frontend developer
         </h1>
         <div className="header__text">
             <p ref={el}></p>
         </div>
-        <a href="#!" className="btn">Download CV... in progress</a>
+        <a href="https://career.habr.com/denis13123" target="_blank" className="btn" rel="noreferrer">View CV</a>
     </div>
 </header>
   )
